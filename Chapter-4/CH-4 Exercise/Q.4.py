@@ -1,0 +1,10 @@
+Number = []
+n1 = int(input("Enter Marks :"))
+n2 = int(input("Enter Marks :"))
+n3 = int(input("Enter Marks :"))
+n4 = int(input("Enter Marks :"))
+Number.append(n1)
+Number.append(n2)
+Number.append(n3)
+Number.append(n4)
+print(sum(Number))

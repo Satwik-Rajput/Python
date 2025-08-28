@@ -1,0 +1,33 @@
+list = [3,5,6,4,2,8,]
+
+print(list)
+
+list.sort() #.sort() is used to sort the list in ascending order
+
+print(list)
+
+list.append(10) #.append() is used to add only the single element in the list
+
+print(list)
+
+list.extend([11,12,13,14]) #.extend() is used to add the element in the list
+
+print(list)
+
+list.reverse() #.reverse() is used to reverse the list
+
+print(list)
+
+list.remove(5) #.remove() is used to remove the element from the list
+
+print(list)
+
+list.pop(2) #.pop() is used to remove the element at the index
+
+print(list)
+
+list.insert(2,100) #.insert() is used to insert the element at the index
+
+print(list)
+
+list.clear() #.clear() is used to clear the list

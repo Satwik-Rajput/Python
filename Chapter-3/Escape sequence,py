@@ -1,0 +1,9 @@
+print("Satwik Singh Rajput\nAi&Ml learner") 
+
+print("Satwik Singh Rajput\\Ai&Ml learner")
+
+print("Satwik Singh Rajput\n\"Ai&Ml\" learner")
+
+print("Satwik Singh Rajput\t\"Ai&Ml\" learner")
+
+print("Satwik Singh Rajputs\b \"Ai&Ml\" learner")

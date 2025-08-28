@@ -1,0 +1,11 @@
+# We can prevent new lines by using the end parameter of print function.
+print("Python", end=" ")
+print("is", end=" ")
+print("awesome", end=" ")
+print("and", end=" ")
+print("I", end=" ")
+print("love", end=" ")
+print("it")
+print("A")
+print("B")
+print("C")
