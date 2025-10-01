@@ -1,5 +1,5 @@
 # 1.Print finonacci seris up to n terms
-'''
+
 def fibonacci(n):
     if n <= 1:
         return n
@@ -8,9 +8,9 @@ def fibonacci(n):
 n =int(input("Enter a number:"))
 for i in range(n):
     print(fibonacci(i), end=" ")
-print()
+# print()
 print(fibonacci(n))
-'''
+
 
 # 2.Check if anumber is prime using a loop.
 '''
@@ -163,6 +163,6 @@ else:
 '''
 
 # 10. Create a pattern of a star or numbers eg(pyramid triangle inverted triangle)
-n = int(input("Enter a number:"))
+'''n = int(input("Enter a number:"))
 for i in range(n):
-    print(" "*(n-i-1)+ "*"*(2*i+1))
+    print(" "*(n-i-1)+ "*"*(2*i+1))'''

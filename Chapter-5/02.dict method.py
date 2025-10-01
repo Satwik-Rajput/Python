@@ -12,6 +12,8 @@ print(dict.items()) # .items() method is used to get the key and value pair
 
 print(dict.keys()) # .keys() method is used to get the keys
 
+print(dict.values()) # .values() method is used to get the keys
+
 dict.update({"Satyam":90}) # .update() method is used to update the value of the key
 
 print(dict)
