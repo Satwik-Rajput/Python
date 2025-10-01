@@ -12,10 +12,10 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
-newsapi = "024bf56f716147049e0f1282fa821c67"
+newsapi = "API"
 
 def aiprocess(command):
-    client = genai.Client(api_key="AIzaSyDUmF9MaPne_Pv7f8l6ssTrdJKNhRhkWYo")
+    client = genai.Client(api_key="API")
     response = client.models.generate_content(
         model = "gemini-2.5-flash",
         contents=[
@@ -48,7 +48,7 @@ def processcommand(c):
         webbrowser.open(link)
 
     elif "news" in c.lower():
-        r = requests.get(f"https://newsapi.org/v2/top-headlines?country=us&apiKey=024bf56f716147049e0f1282fa821c67")
+        r = requests.get(f"https://newsapi.org/v2/top-headlines?country=us&apiKey=API")
         if r.status_code == 200:
             data = r.json()
 
