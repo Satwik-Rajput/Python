@@ -30,7 +30,7 @@ edge_color=(86, 44, 44)
 )
 
 # Save in current directory
-output_path = os.path.join(current_dir, "Music.jpg")  # It give the location of your current directory path
+output_path = os.path.join(current_dir, "QR_Code_III.jpg")  # It give the location of your current directory path
 img.save(output_path)
 print(f"✅ QR saved to: {output_path}")
 
@@ -58,5 +58,6 @@ Black Gold Fusion
 back_color=(27, 27, 27),
 center_color=(66, 52, 22),
 edge_color=(221, 153, 0)
+
 
 """
