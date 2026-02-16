@@ -18,7 +18,7 @@ img = qr.make_image(
     back_color=(13, 27, 42),    # Background
 )
 
-img.save("Love you Like A Love Song Baby III.jpg")
+img.save("QR_Code_II.jpg")
 print("Enhanced QR saved! Test scan it.")
 
 #  Use these clour palate for luxury and eye catching QR 
@@ -34,5 +34,6 @@ back_color=(0, 0, 0)
 Neon Cyan Abyss
 fill_color=(0, 212, 255),
 back_color=(2, 0, 36)
+
 
 """
