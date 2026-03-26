@@ -15,7 +15,7 @@ def speak(text):
 newsapi = "024bf56f716147049e0f1282fa821c67"
 
 def aiprocess(command):
-    client = genai.Client(api_key="AIzaSyDUmF9MaPne_Pv7f8l6ssTrdJKNhRhkWYo")
+    client = genai.Client(api_key="AIzaSyBZvBando6kaIZuTIUbyYT2O5QLG8OloHA")
     response = client.models.generate_content(
         model = "gemini-2.5-flash",
         contents=[
