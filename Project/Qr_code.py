@@ -3,5 +3,5 @@
  Second one is pillow:pip insatll pillow'''
 
 import qrcode
-qr = qrcode.make("https://open.spotify.com/track/32yIEFS62uS5ryhr2Xlooj?si=e54c1b58ff8646ae")
-qr.save("my_fav_music.jpg")
+my_name = qrcode.make("Stwik Singh Rajput")
+my_name.save("my_name.jpg")
